@@ -13,7 +13,7 @@ app = Flask(__name__)
 app.register_blueprint(view_blueprint)
 app.register_blueprint(load_blueprint)
 
-logging.basicConfig(filename="basic.log", level=logging.INFO)
+logging.basicConfig(filename="C:/Homework_12/basic.log", level=logging.INFO)
 
 
 

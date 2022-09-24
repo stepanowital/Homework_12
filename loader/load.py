@@ -27,7 +27,7 @@ def uploaded_post_page():
 		logging.info("Отсутствует фотография, повторите попытку")
 		return "Отсутствует фотография, повторите попытку"
 
-	if picture.filename.split(".")[-1] not in ["jpg", "png", "jpeg"]:
+	if picture.filename.split(".")[-1].lower() not in ["jpg", "png", "jpeg"]:
 		logging.info("Неверный файл (фото)")
 		return "Неверный файл (фото)"
 
