@@ -8,3 +8,31 @@ INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 13:49:13] "GET /search?s=Коня HTTP/1.1"
 INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 13:49:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 13:49:14] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 13:49:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:29:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:29:55] "GET /static/style.css HTTP/1.1" 200 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:29:57] "GET /search?s=Коня HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:29:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:29:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:29:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:01] "GET /search?s=красивый HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:02] "GET /add_post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:12] "POST /add_post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:12] "GET /uploads/images/BDQI7284.JPG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:19] "GET /search?s=девченки HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:19] "[36mGET /uploads/images/BDQI7284.JPG HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Sep/2022 16:30:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
