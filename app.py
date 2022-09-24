@@ -14,9 +14,7 @@ app.register_blueprint(view_blueprint)
 app.register_blueprint(load_blueprint)
 
 logging.basicConfig(filename="basic.log", level=logging.INFO)
-# @app.route("/")
-# def page_index():
-#     pass
+
 
 
 @app.route("/uploads/<path:path>")

@@ -2,6 +2,7 @@ from json import JSONDecodeError
 import logging
 from flask import Blueprint, render_template, request
 
+
 from functions import search_post, load_posts
 
 

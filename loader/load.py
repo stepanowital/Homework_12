@@ -32,13 +32,14 @@ def uploaded_post_page():
 		return "Неверный файл (фото)"
 
 	try:
-		picture_path = "/" + save_picture(picture)
+		picture_path = save_picture(picture)
 	except FileNotFoundError:
 		logging.error("Файл картинки не найден")
 		return "Файл картинки не найден"
 	except JSONDecodeError:
 		logging.error("Файл испорчен")
 		return "Файл испорчен"
-	post = add_posts({"pic": picture_path, "content": content})
+	path_for_page = picture_path[14:]
+	post = add_posts({"pic": path_for_page, "content": content})
 
 	return render_template("post_uploaded.html", post=post)

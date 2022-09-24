@@ -2,7 +2,7 @@ import json
 
 
 def load_posts():
-    with open("posts.json", "r", encoding="utf-8") as file:
+    with open("C:\Homework_12\posts.json", "r", encoding="utf-8") as file:
         return json.load(file)
 
 
@@ -17,6 +17,6 @@ def search_post(s):
 def add_posts(post):
     posts = load_posts()
     posts.append(post)
-    with open("posts.json", "w", encoding="utf-8") as file:
+    with open("C:\Homework_12\posts.json", "w", encoding="utf-8") as file:
         json.dump(posts, file)
     return post
